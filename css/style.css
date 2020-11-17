@@ -1,0 +1,203 @@
+/** 
+Green: #4FAF62
+Darkgray: #4D4D4D
+**/
+
+@charset "utf-8";
+* {
+  font-family: 'Lato', sans-serif;
+  max-width: 100vw;
+  box-sizing: border-box; 
+}
+#problem img, #solution img {
+	width: 256px;
+}
+.row {
+  display: block;
+
+}
+#problem .col-left, #solution .col-left {
+   color: black;
+   left: 0;
+   width: 50%;
+}
+#problem .col-right, #solution .col-right {
+  color: black;
+  right: 0;
+  width: 50%;
+}
+#problem {
+  
+  height: 400px;
+  color: black;
+  padding: 25px 25px 25px 25px;
+  
+}
+#solution {
+
+  height: 400px;
+  color: black;
+  padding: 25px 25px 25px 25px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+header {
+  background: url('../assets/header-bg.svg') no-repeat;
+  background-size: cover;
+  background-color: #4FAF62;
+  padding: 10px;
+}
+
+h2{
+  margin-left: 10%;
+  font-size: 150%;
+  color: black;
+  text-align: left;
+}
+
+h3{
+  margin-left: 10%;
+  font-size: 135%;
+  color: black;
+  text-align: left;
+}
+
+p{
+  margin-right: 20%;
+  font-size: 120%;
+  color: black;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header h1 {
+  display: inline;
+  position: relative;
+}
+
+main.hero {
+  background: url('../assets/background.svg') no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  background-attachment: fixed;
+
+  min-height: 600px;
+  margin: 0;
+  padding-top: 100px;
+}
+
+main.hero section.text {
+  float: left;
+}
+
+main.hero button {
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px 20px 10px 20px;
+  transition: 0.2s;
+
+  /* color: white; */
+  /* background-color: ; */
+}
+
+main.hero button:hover {
+  color: white;
+  background-color: #dd7c06;
+  cursor: pointer;
+}
+
+main.hero h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+main.hero img {
+  min-width: 250px;
+  width: 16vw;
+  height: auto;
+
+  margin-top: 0;
+  float: right;
+}
+
+#how-it-works {
+  padding-top: 50px;
+  min-height: 1000px;
+  color: #4D4D4D;
+}
+
+#how-it-works h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#how-it-works .column {
+  float: left;
+  width: 33.33%;
+}
+
+#how-it-works .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+
+nav a {
+  float: right;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+nav #currentPage{
+  font-weight: bold;
+}
+
+.col-left{
+  width: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col-right{
+  width: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+#problem img, #solution img{
+  width: 80%;
+  padding: 0px;
+  margin: 0px;
+}
+
