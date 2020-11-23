@@ -11,7 +11,7 @@
     <div class="content">
       <h1>App Name</h1>
 
-      <nav>
+      <nav><!-- Webpage navigation buttons -->
         <a href="/problem-and-solution.html" id="currentPage">Problem and solution</a>
         <a href="/the-app.html">The app</a>
         <a href="/home.html">How it works</a>
@@ -21,14 +21,14 @@
   <main>
     <div class="content">
       <div class = "row">
-        <div id ="problem">
+        <div id ="problem"><!-- Content of problem section -->
           <div class="col-left float-left">
           <h1> The problem </h1>
           <span class="problem-solution-text-span">
             We wish to contribute to solving of the second UN SDG Goal, zero hunger and will be contributing by trying to reduce wastage.
           </span>
-          <input id="rmt-1" class="read-more-toggle float-right" type="checkbox" checked>
-        <label id="rmt-" for="rmt-1" class="rmt-label float-right">Read More</label>
+          <input id="rmt-1" class="read-more-toggle float-right" type="checkbox">
+        <label id="rmt-1-label" for="rmt-1" class="rmt-label float-right">Read More</label>
           <div id="rmc-1" class="rm-content problem-solution-text">
             <p>Food is a finite resource many Norwegians take for granted.
             Norwegians are amongst the most wasteful of people and hence contribute to the food shortage starving many around the globe. 
@@ -54,7 +54,7 @@
                 Our solution aims to reduce the wastage of food by introducing an accessible and easy-to-use app. 
               </span>
               <input id="rmt-2" class="read-more-toggle float-right" type="checkbox">
-              <label for="rmt-2" class="rmt-label float-right">Read More</label>
+              <label id="rmt-2-label"for="rmt-2" class="rmt-label float-right">Read More</label>
               <div id="rmc-2" class="rm-content problem-solution-text">
                 <p>There are many reasons to wastage of food but seeing as 20% of it comes from dinner leftovers, 
                 we believe one of the major factors are laziness and lack of accessible information. 
@@ -123,5 +123,37 @@
     <!-- 2 columns with contact info-->
     <!-- Media links-->
   </footer>
+  <script>
+    // Global variables
+    var rmt1label = document.getElementById("rmt-1-label");
+    var rmt2label = document.getElementById("rmt-2-label");
+    var rmt1 = document.getElementById("rmt-1");
+    var rmt2 = document.getElementById("rmt-2");
+
+    rmt1label.onclick = readMore1();
+    rmt2label.onclick = readMore2();
+    
+    // Incase Javascript interfers with the html and shows the rmt as checked at startup
+    rmt1.checked = false;
+    rmt2.checked = false;
+
+    // For user comfort: When label is pressed it unchecks or checks the coresponding checkbox
+    function readMore1(){
+      if(rmt1.checked == true){
+        rmt1.checked = false;
+      }
+      else if(rmt1.checked == false){
+        rmt1.checked = true;
+      }
+    }
+    function readMore2(){
+      if(rmt2.checked == false){
+        rmt2.checked = true;
+      }
+      else if(rmt2.checked == true){
+        rmt2.checked = false;
+      }
+    }
+  </script>
 </body>
 </html>
