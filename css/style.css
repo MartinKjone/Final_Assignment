@@ -147,6 +147,10 @@ main.hero img {
 }
 
 #how-it-works .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   float: left;
   width: 33.33%;
 }
@@ -155,6 +159,11 @@ main.hero img {
   content: "";
   display: table;
   clear: both;
+}
+
+#how-it-works img {
+  width: 200px;
+  height: auto;
 }
 
 nav {
@@ -200,4 +209,50 @@ nav #currentPage{
   padding: 0px;
   margin: 0px;
 }
+
+.rmt-label{
+  font-weight: bold;
+}
+
+/*Makes the size of the text within the problem and solution section the same visually font size*/
+.problem-solution-text{
+  font-size: 1em;
+}
+.problem-solution-text-span{
+  font-size: 1.2em;
+}
+
+.rm-content{/*To make the read more text hidden till the read more toggle is pressed*/
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+#rmt-1:checked ~ #rmc-1{/*When rmt is checked, the read more will be visible*/
+  max-height: 1000px;/*Auto does not work. Use value equal or higher than the intended size of the element*/
+}
+#rmt-2:checked ~ #rmc-2{
+  max-height: 1000px;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  margin: 0px 1% 0px 1%;
+  border: 1px solid white;
+  box-shadow: 5px 10px 10px 5px grey;
+}
+
+.col-small-31 {width: 31%;}
+
+@media screen and (max-width: 992px) {
+  .col-tall-100 {width: 100%;}
+  }
+
 
