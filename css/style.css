@@ -259,6 +259,23 @@ nav #currentPage{
   height: 650px;
 }
 
+.button-toTop{
+  margin-left: 1px;
+  text-align: center;
+  background-color: #4FAF62;
+  color: black;
+}
+
+.button-toTop:link{
+  color: black;
+}
+
+.button-toTop:visited{
+  color: black;
+}
+
+/* LINK COLORS */
+
 [class*="col-"] {
   float: left;
   padding: 10px;
@@ -268,9 +285,11 @@ nav #currentPage{
 }
 
 .col-small-31 {width: 31%;}
+.col-small-10 {width: 10%;}
 
 @media screen and (max-width: 992px) {
   .col-tall-100 {width: 100%;}
+  .col-tall-31 {width: 31%;}
   }
 
 
