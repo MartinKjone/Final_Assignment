@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
   <defs>
-    <clipPath id="clip-iPhone_X_XS_11_Pro_1">
+    <clipPath id="clip-app_consumer2">
       <rect width="375" height="812"/>
     </clipPath>
   </defs>
-  <g id="iPhone_X_XS_11_Pro_1" data-name="iPhone X, XS, 11 Pro – 1" clip-path="url(#clip-iPhone_X_XS_11_Pro_1)">
+  <g id="app_consumer2" clip-path="url(#clip-app_consumer2)">
     <rect width="375" height="812" fill="#fff"/>
     <g id="Content" transform="translate(-183 180.221)">
       <g id="iPhone" transform="translate(186.514 -125)">
@@ -14,30 +14,31 @@
         <path id="Shape_6" data-name="Shape 6" d="M.314,18.328a6.458,6.458,0,0,1,4.1-8.121,6.371,6.371,0,0,1,8.045,4.136,6.458,6.458,0,0,1-4.1,8.121,6.326,6.326,0,0,1-1.975.317A6.392,6.392,0,0,1,.314,18.328ZM111.58,15.736a6.444,6.444,0,1,1,6.444,6.385A6.414,6.414,0,0,1,111.58,15.736ZM58.493,18.285a3,3,0,0,1,0-5.995H97.685a3,3,0,0,1,0,5.995ZM58.048,8.093a4.047,4.047,0,0,1,0-8.093H98.131a4.047,4.047,0,0,1,0,8.093Z" transform="translate(106.783 14.616)" fill="#484450"/>
       </g>
       <g id="Group_4" data-name="Group 4" transform="translate(237.261 -60.548)">
-        <rect id="Rectangle_13" data-name="Rectangle 13" width="259.46" height="57.841" rx="28.921" transform="translate(3.305 595.207)" fill="#28ea1b"/>
-        <text id="Proceed" transform="translate(109.739 629.328)" fill="#fff" font-size="15" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Proceed</tspan></text>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="259.46" height="57.841" rx="28.921" transform="translate(3.305 595.207)" fill="#4faf62"/>
+        <text id="Proceed" transform="translate(93.739 632.328)" fill="#fff" font-size="20" font-family="Verdana"><tspan x="0" y="0">Proceed</tspan></text>
       </g>
-      <g id="Group_3" data-name="Group 3" transform="translate(0 175)">
+      <g id="Group_3" data-name="Group 3" transform="translate(0 192)">
         <line id="Line_5" data-name="Line 5" x2="191.703" transform="translate(283.534 218.514)" fill="none" stroke="#000" stroke-width="0.5" opacity="0.3"/>
-        <text id="Related_articles" data-name="Related articles" transform="translate(241 162.779)" fill="#707070" font-size="25" font-family="TimesNewRomanPSMT, Times New Roman" style="mix-blend-mode: darken;isolation: isolate"><tspan x="0" y="0">Related articles</tspan></text>
+        <text id="Related_articles" data-name="Related articles" transform="translate(241 162.779)" fill="#707070" font-size="25" font-family="Verdana" style="mix-blend-mode: darken;isolation: isolate"><tspan x="0" y="0">Related articles</tspan></text>
         <path id="Path_5" data-name="Path 5" d="M0,0H270" transform="translate(240.534 169.514)" fill="none" stroke="#000" stroke-width="0.5" opacity="0.3"/>
-        <text id="BMI:_https:_bit.ly_2UOL8aq" data-name="BMI: https://bit.ly/2UOL8aq" transform="translate(283 200.779)" fill="#4e92d4" font-size="18" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">BMI: https://bit.ly/2UOL8aq</tspan></text>
-        <text id="Vitamins:_https:_bit.ly_3pNUv8V" data-name="Vitamins: https://bit.ly/3pNUv8V" transform="translate(283 248.779)" fill="#4e92d4" font-size="18" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Vitamins: https://bit.ly/3pNUv8V</tspan></text>
+        <text id="BMI:_bit.ly_2UOL8aq" data-name="BMI: bit.ly/2UOL8aq" transform="translate(286 201.779)" fill="#4e92d4" font-size="20" font-family="Verdana"><tspan x="0" y="0">BMI: bit.ly/2UOL8aq</tspan></text>
+        <text id="Vitamins:_bit.ly_3pNUv8V" data-name="Vitamins: bit.ly/3pNUv8V" transform="translate(238 248.779)" fill="#4e92d4" font-size="20" font-family="Verdana"><tspan x="0" y="0">Vitamins: bit.ly/3pNUv8V</tspan></text>
         <line id="Line_11" data-name="Line 11" x2="191.703" transform="translate(283.534 268.514)" fill="none" stroke="#000" stroke-width="0.5" opacity="0.3"/>
-        <text id="Fish:_https:_bit.ly_2HvXtO0" data-name="Fish: https://bit.ly/2HvXtO0" transform="translate(283 298.779)" fill="#4e92d4" font-size="18" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Fish: https://bit.ly/2HvXtO0</tspan></text>
+        <text id="Fish:_bit.ly_2HvXtO0" data-name="Fish: bit.ly/2HvXtO0" transform="translate(284 298.779)" fill="#4e92d4" font-size="20" font-family="Verdana"><tspan x="0" y="0">Fish: bit.ly/2HvXtO0</tspan></text>
       </g>
-      <g id="Group_2" data-name="Group 2">
-        <text id="Vitamins_and_nutrients" data-name="Vitamins and nutrients" transform="translate(241 162.779)" fill="#707070" font-size="25" font-family="TimesNewRomanPSMT, Times New Roman" style="mix-blend-mode: darken;isolation: isolate"><tspan x="0" y="0">Vitamins and nutrients</tspan></text>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 5)">
+        <text id="Vitamins_and_nutrients" data-name="Vitamins and nutrients" transform="translate(241 162.779)" fill="#707070" font-size="25" font-family="Verdana" style="mix-blend-mode: darken;isolation: isolate"><tspan x="0" y="0">Vitamins and nutrients</tspan></text>
         <path id="Path_5-2" data-name="Path 5" d="M0,0H270" transform="translate(240.534 169.514)" fill="none" stroke="#000" stroke-width="0.5" opacity="0.3"/>
         <line id="Line_9" data-name="Line 9" x2="191.703" transform="translate(283.534 223.514)" fill="none" stroke="#000" stroke-width="0.5" opacity="0.3"/>
-        <text id="Vitamin_D_Calcium" data-name="Vitamin D, Calcium" transform="translate(241 201.779)" font-size="20" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Vitamin D, Calcium</tspan></text>
-        <text id="Oily_fish:_e.g._Salmon_Mackerel." data-name="Oily fish: e.g. Salmon, Mackerel." transform="translate(241 253.779)" font-size="20" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Oily fish: e.g. Salmon, Mackerel.</tspan></text>
+        <text id="Vitamin_D_Calcium" data-name="Vitamin D, Calcium" transform="translate(241 201.779)" font-size="20" font-family="Verdana"><tspan x="0" y="0">Vitamin D, Calcium</tspan></text>
+        <text id="Oily_fish:_e.g:_Salmon_Mackerel_etc." data-name="Oily fish: e.g: Salmon, 
+Mackerel etc." transform="translate(241 253.779)" font-size="20" font-family="Verdana"><tspan x="0" y="0">Oily fish: e.g: Salmon, </tspan><tspan x="0" y="24">Mackerel etc.</tspan></text>
       </g>
       <g id="Group_1" data-name="Group 1">
-        <text id="Healthy_BMI:_18.5_-_24.9" data-name="Healthy BMI: 18.5 - 24.9" transform="translate(307 94.779)" fill="#707070" font-size="18" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Healthy BMI: 18.5 - 24.9</tspan></text>
-        <text id="Current_BMI:_18_4" data-name="Current BMI: 18,4" transform="translate(241 70.779)" font-size="20" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Current BMI: 18,4</tspan></text>
+        <text id="Healthy_BMI:_18.5_-_24.9" data-name="Healthy BMI: 18.5 - 24.9" transform="translate(289 94.779)" fill="#707070" font-size="18" font-family="Verdana"><tspan x="0" y="0">Healthy BMI: 18.5 - 24.9</tspan></text>
+        <text id="Current_BMI:_18_4" data-name="Current BMI: 18,4" transform="translate(241 70.779)" font-size="20" font-family="Verdana"><tspan x="0" y="0">Current BMI: 18,4</tspan></text>
         <line id="Line_8" data-name="Line 8" x2="270" transform="translate(240.534 46.514)" fill="none" stroke="#000" stroke-width="0.5" opacity="0.3"/>
-        <text id="BMI_body_mass_index_" data-name="BMI (body mass index)" transform="translate(241 38.779)" fill="#707070" font-size="25" font-family="TimesNewRomanPSMT, Times New Roman" style="mix-blend-mode: darken;isolation: isolate"><tspan x="0" y="0">BMI (body mass index)</tspan></text>
+        <text id="BMI_body_mass_index_" data-name="BMI (body mass index)" transform="translate(241 38.779)" fill="#707070" font-size="25" font-family="Verdana" style="mix-blend-mode: darken;isolation: isolate"><tspan x="0" y="0">BMI (body mass index)</tspan></text>
         <text id="Health" transform="translate(238 0.779)" font-size="30" font-family="Verdana"><tspan x="0" y="0">Health</tspan></text>
         <path id="Path_4" data-name="Path 4" d="M48.958,15.916,44,10.958,48.958,6" transform="translate(196.566 -65.454)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
