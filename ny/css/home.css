@@ -1,0 +1,178 @@
+main.hero {
+  background: url("../assets/background.svg") no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  min-height: 600px;
+}
+
+main.hero button {
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px 20px 10px 20px;
+  transition: 0.2s;
+  background-color: white;
+}
+
+main.hero button:hover {
+  color: white;
+  background-color: #dd7c06;
+  cursor: pointer;
+}
+
+main.hero h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+main.hero .test {
+  min-width: 30%;
+}
+
+main.hero img {
+  min-width: 195px;
+  width: 13vw;
+  height: auto;
+
+  margin-top: 0;
+  float: left;
+}
+
+.column {
+  text-align: center;
+
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.top-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#how-it-works {
+  padding-top: 50px;
+  margin-bottom: 75px;
+  color: #4d4d4d;
+}
+
+#how-it-works .top-text p {
+  color: #929292;
+  font-size: 25px;
+  margin: 0;
+}
+
+#how-it-works .step {
+  font-size: 30px;
+}
+
+#how-it-works .step .circle {
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #4d4d4d;
+  border-radius: 50%;
+  color: white;
+}
+
+#how-it-works img {
+  width: 100px;
+  height: auto;
+}
+
+#why-this-app {
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+#why-this-app .left {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+#why-this-app .right {
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+
+#why-this-app h2 {
+  font-weight: bold;
+}
+
+#why-this-app p {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#why-this-app img {
+  width: 150px;
+  height: auto;
+}
+
+#why-this-app .block {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+@media screen and (max-width: 900px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  main.hero .test {
+    width: unset;
+  }
+
+  main.hero img {
+    min-width: 200px;
+  }
+
+  #why-this-app .left,
+  #why-this-app .right,
+  .column {
+    float: unset;
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    line-height: unset;
+    padding: 5px 5px 5px 0;
+  }
+
+  main.hero {
+    min-height: 400px;
+  }
+
+  main.hero h1 {
+    font-size: 45px;
+  }
+
+  main.hero img {
+    display: none;
+  }
+
+  .float-left,
+  .float-right {
+    float: unset;
+  }
+}

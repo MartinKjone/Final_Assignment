@@ -1,0 +1,116 @@
+main .block {
+  width: 50%;
+}
+
+main .block h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+main .block p {
+  font-size: 24px;
+  max-width: 600px;
+  font-weight: 400;
+}
+
+#problem img {
+  width: 250px;
+  min-width: 200px;
+  height: auto;
+}
+
+#mainImage {
+  float: left;
+}
+
+main .section {
+  padding-bottom: 100px;
+  /* overflow: hidden; */
+}
+
+#quote {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 50px;
+}
+
+#quote blockquote {
+  font-size: 24px;
+  margin: 0 auto;
+  max-width: 730px;
+  font-style: italic;
+}
+
+#quote .symbol {
+  background-color: #4d4d4d;
+  color: white;
+  border-radius: 10px;
+  line-height: 75px;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#conclusion {
+  text-align: center;
+  padding: 100px;
+  font-size: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#solution {
+  background-color: #f3f3f3;
+  padding-top: 100px;
+}
+
+.icon-center {
+  text-align: center;
+}
+
+.icon-center img {
+  /* position: absolute; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+}
+
+@media screen and (max-width: 1600px) {
+  #mainImage {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #mainImage {
+    float: unset;
+  }
+
+  main section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  main .block {
+    width: unset;
+  }
+
+  main .block h1 {
+    font-size: 40px;
+  }
+
+  #conclusion {
+    padding: 25px 50px 25px 50px;
+  }
+
+  #solution img {
+    width: 300px;
+  }
+
+  .float-left,
+  .float-right {
+    float: unset;
+  }
+}
